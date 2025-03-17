@@ -12,4 +12,4 @@ setTimeout(()=>{
         hamburger_x_btn.style.display="none";
     })
 
-},200)
+},700)
