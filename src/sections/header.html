@@ -1,4 +1,33 @@
 <div>
-    <h1 class="text-blue-800">Header</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.</p>
+    <header class="md:flex justify-between items-center md:p-6">
+        <div class="hidden md:block">
+            <a href="#" class="block">DV</a>
+            <a href="#" class="block">EN</a>
+        </div>
+        <a href="#" class="hidden md:block">
+            <img src="src/assets/logo.svg" alt="">
+        </a>
+       <div class="flex justify-between md:hidden pt-16 pb-24 px-6">
+            <div>
+                <a href="#" class="block">DV</a>
+                <a href="#" class="block">EN</a>
+            </div>
+            <a href="#">
+                <img src="src/assets/logo.svg" alt="">
+            </a>
+            <label for="hamburger-state" class="md:hidden cursor-pointer ">
+                <img id="hamburger_btn" src="src/assets/hamburger.svg" alt="">
+                <img id="hamburger_x_btn" src="src/assets/close-hamburger.svg" class="hidden" alt="">
+            </label>
+       </div>
+       <input type="checkbox" class="peer hidden" id="hamburger-state">
+        <nav class="peer-checked:max-h-full max-h-0 overflow-hidden  absolute md:max-h-full md:static  left-0 right-0 mx-auto md:my-0 md:mx-0  text-center">
+            <ul class="">
+                <li class="text-[#00672E] md:text-black font-semibold text-[2rem] md:pb-0 md:text-[1rem] pb-12">About</li>
+                <li class="text-[#00672E] md:text-black font-semibold text-[2rem] md:pb-0 md:text-[1rem] pb-12">Services</li>
+                <li class="text-[#00672E] md:text-black font-semibold text-[2rem] md:pb-0 md:text-[1rem] pb-12">References</li>
+                <li class="text-[#00672E] md:text-black font-semibold text-[2rem] md:pb-0 md:text-[1rem]">Contact</li>
+            </ul>
+        </nav>
+    </header>
 </div>
