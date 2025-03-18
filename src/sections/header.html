@@ -15,10 +15,14 @@
             <a href="#">
                 <img src="src/assets/logo.svg" alt="logo">
             </a>
-            <label for="hamburger-state" class="md:hidden cursor-pointer">
-                <img id="hamburger_btn" src="src/assets/hamburger.svg" alt="hamburger-menu">
-                <img id="hamburger_x_btn" src="src/assets/close-hamburger.svg" class="hidden" alt="hamburger-menu">
-            </label>
+           <menu class="md:hidden">
+                <button id="hamburger_btn" class="cursor-pointer">
+                    <img src="src/assets/hamburger.svg" alt="Open Menu Icon">
+                </button>
+                <button id="hamburger_x_btn" class="hidden cursor-pointer">
+                    <img src="src/assets/close-hamburger.svg" alt="Close Menu Icon">
+                </button>
+            </menu>
        </div>
        <input type="checkbox" class="peer hidden" id="hamburger-state">
         <nav id="mobile_nav" class="hidden md:block max-h-full overflow-hidden absolute md:max-h-full md:static left-0 right-0 mx-auto md:my-0 md:mx-0 text-center md:text-left">
