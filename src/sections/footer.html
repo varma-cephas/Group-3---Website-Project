@@ -4,67 +4,71 @@
     src="src/assets/Vector 7.png"
     alt="Vector 7"
   />
-  <footer id="footer" class="">
-    <div class="hidden md:hidden lg:flex justify-between items-start px-8 py-4">
-      <div>
-        <span class="font-medium">Agentur Baumeister</span>
-        <br />
-        <span class="font-medium">Böckhstraße 13</span>
-        <br />
-        <span class="font-medium">10967 Berlin</span>
+  <footer id="footer">
+    <!-- Mobile (default) -->
+    <div class="space-y-6 p-6 md:hidden lg:hidden">
+      <div class="font-medium">
+        <h4>Agentur Baumeister</h4>
+        <h4>Böckhstraße 13</h4>
+        <h4>10967 Berlin</h4>
       </div>
-      <div>
-        <span class="font-medium underline">hallo@agentur-baumeister.com</span>
-        <br />
-        <span class="font-medium">+49 (0)30 - 490 827 87</span>
+      <div class="font-medium">
+        <h4 class="underline">hallo@agentur-baumeister.com</h4>
+        <h4>+49 (0)30 - 490 827 87</h4>
       </div>
-      <div>
-        <span class="font-medium">LinkedIn</span>
-      </div>
-      <div>
-        <span class="font-medium">Instagram</span>
-      </div>
-      <div>
-        <span class="font-medium">Impressum</span>
-        <br />
-        <span class="font-medium">Datenschutz</span>
-      </div>
-    </div>
-    <div class="hidden md:block lg:hidden p-6">
-      <div class="flex justify-between mb-6">
-        <div>
-          <h4 class="font-medium">Agentur Baumeister</h4>
-          <h4 class="font-medium">Böckhstraße 13</h4>
-          <h4 class="font-medium">10967 Berlin</h4>
-        </div>
-        <div>
-          <h4 class="underline font-medium">hallo@agentur-baumeister.com</h4>
-          <h4 class="font-medium md:text-right">+49 (0)30 - 490 827 87</h4>
-        </div>
-      </div>
-      <div class="flex justify-between">
-        <h4 class="font-medium">LinkedIn</h4>
-        <h4 class="font-medium">Instagram</h4>
-        <h4 class="font-medium">Impressum</h4>
-        <h4 class="font-medium">Datenschutz</h4>
+      <div class="flex justify-between font-medium">
+        <h4>Datenschutz</h4>
+        <h4>Impressum</h4>
+        <h4>LinkedIn</h4>
+        <h4>Instagram</h4>
       </div>
     </div>
 
-    <div class="md:hidden lg:hidden p-6 space-y-6">
-      <div>
-        <h4 class="font-medium">Agentur Baumeister</h4>
-        <h4 class="font-medium">Böckhstraße 13</h4>
-        <h4 class="font-medium">10967 Berlin</h4>
+    <!-- Medium screens -->
+    <div class="hidden p-6 md:block lg:hidden">
+      <div class="mb-6 flex justify-between">
+        <div class="font-medium">
+          <h4>Agentur Baumeister</h4>
+          <h4>Böckhstraße 13</h4>
+          <h4>10967 Berlin</h4>
+        </div>
+        <div class="font-medium">
+          <h4 class="underline">hallo@agentur-baumeister.com</h4>
+          <h4 class="md:text-right">+49 (0)30 - 490 827 87</h4>
+        </div>
       </div>
-      <div>
-        <h4 class="underline font-medium">hallo@agentur-baumeister.com</h4>
-        <h4 class="font-medium">+49 (0)30 - 490 827 87</h4>
+      <div class="flex justify-between font-medium">
+        <h4>LinkedIn</h4>
+        <h4>Instagram</h4>
+        <h4>Impressum</h4>
+        <h4>Datenschutz</h4>
       </div>
-      <div class="flex justify-between">
-        <h4 class="font-medium">Datenschutz</h4>
-        <h4 class="font-medium">Impressum</h4>
-        <h4 class="font-medium">LinkedIn</h4>
-        <h4 class="font-medium">Instagram</h4>
+    </div>
+
+    <!-- Large screens -->
+    <div class="hidden items-start justify-between px-8 py-4 lg:flex">
+      <div class="font-medium">
+        <span>Agentur Baumeister</span>
+        <br />
+        <span>Böckhstraße 13</span>
+        <br />
+        <span>10967 Berlin</span>
+      </div>
+      <div class="font-medium">
+        <span class="underline">hallo@agentur-baumeister.com</span>
+        <br />
+        <span>+49 (0)30 - 490 827 87</span>
+      </div>
+      <div class="font-medium">
+        <span>LinkedIn</span>
+      </div>
+      <div class="font-medium">
+        <span>Instagram</span>
+      </div>
+      <div class="font-medium">
+        <span>Impressum</span>
+        <br />
+        <span>Datenschutz</span>
       </div>
     </div>
   </footer>
