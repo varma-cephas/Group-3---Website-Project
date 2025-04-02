@@ -1,75 +1,73 @@
-<section class="font-bold text-[1.55 rem]">
+<footer id="footer" class="font-bold text-2xl">
   <img
-    class="block mx-auto w-[20.094rem] h-[10.125rem] md:w-[24.094rem] md:h-[12.125rem] lg:w-[26.094rem] lg:h-[15.125rem]"
+    class="block mx-auto w-80 h-40 md:w-96 md:h-48 lg:w-[26rem] lg:h-60"
     src="src/assets/Vector 7.png"
     alt="Vector 7"
   />
-  <footer id="footer">
-    <!-- Mobile (default) -->
-    <div class="space-y-6 p-6 md:hidden lg:hidden">
-      <div class="font-medium">
+  <!-- Mobile (default) -->
+  <div class="space-y-6 p-6 md:hidden lg:hidden font-medium">
+    <div class="">
+      <p>Agentur Baumeister</p>
+      <p>Böckhstraße 13</p>
+      <p>10967 Berlin</p>
+    </div>
+    <div class="">
+      <p class="underline">hallo@agentur-baumeister.com</p>
+      <p>+49 (0)30 - 490 827 87</p>
+    </div>
+    <div class="flex justify-between">
+      <p>Datenschutz</p>
+      <p>Impressum</p>
+      <a href="">LinkedIn</a>
+      <a href="">Instagram</a>
+    </div>
+  </div>
+
+  <!-- Medium screens -->
+  <div class="hidden p-6 md:block lg:hidden font-medium">
+    <div class="mb-6 flex justify-between">
+      <div>
         <p>Agentur Baumeister</p>
         <p>Böckhstraße 13</p>
         <p>10967 Berlin</p>
       </div>
-      <div class="font-medium">
+      <div>
         <p class="underline">hallo@agentur-baumeister.com</p>
-        <p>+49 (0)30 - 490 827 87</p>
-      </div>
-      <div class="flex justify-between font-medium">
-        <p>Datenschutz</p>
-        <p>Impressum</p>
-        <a href="">LinkedIn</a>
-        <a href="">Instagram</a>
+        <p class="md:text-right">+49 (0)30 - 490 827 87</p>
       </div>
     </div>
+    <div class="flex justify-between">
+      <a href="">LinkedIn</a>
+      <a href="">Instagram</a>
+      <p>Impressum</p>
+      <p>Datenschutz</p>
+    </div>
+  </div>
 
-    <!-- Medium screens -->
-    <div class="hidden p-6 md:block lg:hidden">
-      <div class="mb-6 flex justify-between">
-        <div class="font-medium">
-          <p>Agentur Baumeister</p>
-          <p>Böckhstraße 13</p>
-          <p>10967 Berlin</p>
-        </div>
-        <div class="font-medium">
-          <p class="underline">hallo@agentur-baumeister.com</p>
-          <p class="md:text-right">+49 (0)30 - 490 827 87</p>
-        </div>
-      </div>
-      <div class="flex justify-between font-medium">
-        <a href="">LinkedIn</a href="">
-        <a href="">Instagram</a href="">
-        <p>Impressum</p>
-        <p>Datenschutz</p>
-      </div>
+  <!-- Large screens -->
+  <div class="hidden items-start justify-between px-8 py-4 lg:flex font-medium">
+    <div class="font-medium">
+      <span>Agentur Baumeister</span>
+      <br />
+      <span>Böckhstraße 13</span>
+      <br />
+      <span>10967 Berlin</span>
     </div>
-
-    <!-- Large screens -->
-    <div class="hidden items-start justify-between px-8 py-4 lg:flex">
-      <div class="font-medium">
-        <span>Agentur Baumeister</span>
-        <br />
-        <span>Böckhstraße 13</span>
-        <br />
-        <span>10967 Berlin</span>
-      </div>
-      <div class="font-medium">
-        <span class="underline">hallo@agentur-baumeister.com</span>
-        <br />
-        <span>+49 (0)30 - 490 827 87</span>
-      </div>
-      <div class="font-medium">
-        <a href="">LinkedIn</a>
-      </div>
-      <div class="font-medium">
-        <a href="">Instagram</a>
-      </div>
-      <div class="font-medium">
-        <span>Impressum</span>
-        <br />
-        <span>Datenschutz</span>
-      </div>
+    <div class="font-medium">
+      <span class="underline">hallo@agentur-baumeister.com</span>
+      <br />
+      <span>+49 (0)30 - 490 827 87</span>
     </div>
-  </footer>
-</section>
+    <div>
+      <a href="">LinkedIn</a>
+    </div>
+    <div>
+      <a href="">Instagram</a>
+    </div>
+    <div>
+      <span>Impressum</span>
+      <br />
+      <span>Datenschutz</span>
+    </div>
+  </div>
+</footer>
